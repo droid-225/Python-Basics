@@ -16,6 +16,18 @@
 #print("Your height is: " + str(height) + " cm") # same thing as the int
 #print(type(height))
 
-human = True # True and False have to have the first letter capital in Python
-print("You are a human: " + str(human))
+#human = True # True and False have to have the first letter capital in Python
+#print("You are a human: " + str(human))
 #print(type(human))
+
+# multiple assignment = allows us to assign multiple variables at the same time in one line of code
+
+#name = "namen"
+#age = 23
+#attractive = True
+
+name, age, attractive = "namen", 23, True
+
+print(name)
+print(age)
+print(attractive)
